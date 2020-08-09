@@ -69,13 +69,58 @@ a:hover {
 
 .top-container {
   background-color: white;
+  /* padding:2rem; */
+}
+
+.profile{
   position: relative;
-  padding:2rem;
-
 }
 
-.middle-container {
+.hello-img{
+  width: 30%;
+  position: absolute;
+  left: 0;
+  top: 20px;
 }
+
+/*--------------- FADE IN CSS-----------------*/
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+
+
+/************* END OF FADE IN CSS ******************/
+
 
 .bottom-container {
   background-color: #354d38;
@@ -151,5 +196,19 @@ a:hover {
 
 }
 
-
 /*************************** PROJECTS **************************/ 
+.body-projects{
+  padding: 0;
+  margin: 0;
+}
+
+.h1-projects{
+  margin: 0 auto;
+  font-size: 120px;
+}
+
+.dog-gif{
+  width: 30%;
+  padding: 0;
+  margin: 0;
+}
