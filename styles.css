@@ -1,7 +1,24 @@
 /*************************** HOME PAGE **************************/ 
+.nav-item{
+  padding: 0 20px;
+}
+
+.navbar{
+  border-bottom: 1.5px solid #DEDEDE;
+}
+
+.bg-olive-green{
+  background-color: #354d38 !important;
+}
+
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: white;
-  margin: 0;
+  margin:0 ;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
@@ -204,7 +221,7 @@ a:hover {
 
 .h1-projects{
   margin: 0 auto;
-  font-size: 120px;
+  font: 1px;
 }
 
 .dog-gif{
