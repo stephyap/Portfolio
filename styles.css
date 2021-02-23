@@ -1,71 +1,64 @@
-/*************************** HOME PAGE **************************/ 
-.nav-item{
+/*************************** HOME PAGE **************************/
+.nav-item {
   padding: 0 20px;
 }
 
-.navbar{
-  border-bottom: 1.5px solid #DEDEDE;
+.navbar {
+  border-bottom: 1.5px solid #dedede;
 }
 
-.bg-olive-green{
+.bg-olive-green {
   background-color: #354d38 !important;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0;
   margin: 0;
 }
 
 body {
-  color: white;
-  margin:0 ;
+  margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #E0E0DB;
 }
 
 h1 {
-  color: #354d38;
-  font-size: 3rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
-  color: #354d38;
-  font-family: sofia-pro, sans-serif;
+  color:black;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 450;
+  font-size: 2.0rem;
   letter-spacing: 0.12rem;
   padding-bottom: 10px;
 }
 
 h3 {
-  color: #354d38;
-  font-family: sofia-pro, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.1rem;
 }
 
 p {
   line-height: 2;
-  color: #354d38;
-  font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0.03rem;
 }
 
 hr {
-  border: dotted #354d38 6px;
+  border: dotted 6px;
   border-bottom: none;
   width: 4%;
   margin: 90px auto;
 }
 
-a{
-  color: #354d38;
-  font-family: sofia-pro, sans-serif;
+a {
+  /* color: #354d38; */
   font-style: normal;
   font-weight: 300;
   text-decoration: none;
@@ -75,12 +68,12 @@ a:hover {
   color: grey;
 }
 
-.navButtons{
+.navButtons {
   padding: 0 1.5rem;
   letter-spacing: 0.05rem;
 }
 
-.sidenav{
+.sidenav {
   padding: 3.5rem;
 }
 
@@ -89,16 +82,18 @@ a:hover {
   /* padding:2rem; */
 }
 
-.profile{
+.profile_picture {
   position: relative;
+  margin: 20px;
+
 }
 
-.hello-img{
+/* .hello-img {
   width: 30%;
   position: absolute;
   left: 0;
   top: 20px;
-}
+} */
 
 /*--------------- FADE IN CSS-----------------*/
 
@@ -108,45 +103,63 @@ a:hover {
   -moz-animation: fadeIn ease 3s;
   -o-animation: fadeIn ease 3s;
   -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  100% {
+    opacity: 1;
   }
-  
-  @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-  }
+}
 
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 /************* END OF FADE IN CSS ******************/
 
-
 .bottom-container {
   background-color: #354d38;
-  padding: 50px 0 20px;
+  padding: 30px 0 20px;
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 50px auto;
   text-align: left;
 }
 
@@ -154,7 +167,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.profile_picture{
+.profile_picture {
   width: 20%;
 }
 
@@ -168,13 +181,12 @@ a:hover {
   margin: 0 auto;
 }
 
-.contact-message{
+.contact-message {
   padding-bottom: 120px;
 }
 
-
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   padding: 20px 0;
   font-size: 12px;
 }
@@ -191,17 +203,16 @@ a:hover {
   margin-left: 30px;
 }
 
-.footer-link{
+.footer-link {
   color: white;
   padding: 0 20px;
 }
 
 .btn {
-  background: #DEDEDE;
+  background: #dedede;
   border-radius: 12px;
   color: #354d38;
   font-size: 18px;
-  font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 300;
   padding: 15px 25px 15px 25px;
@@ -209,22 +220,21 @@ a:hover {
 
 .btn:hover {
   background: #354d38;
-  color:#DEDEDE;
-
+  color: #dedede;
 }
 
-/*************************** PROJECTS **************************/ 
-.body-projects{
+/*************************** PROJECTS **************************/
+.body-projects {
   padding: 0;
   margin: 0;
 }
 
-.h1-projects{
+.h1-projects {
   margin: 0 auto;
   font: 1px;
 }
 
-.dog-gif{
+.dog-gif {
   width: 30%;
   padding: 0;
   margin: 0;
