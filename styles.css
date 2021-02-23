@@ -1,19 +1,23 @@
 /*************************** HOME PAGE **************************/
 .nav-item {
-  padding: 0 20px;
+  padding: 0 1.2rem;
 }
 
-.navbar {
+/* .navbar {
   border-bottom: 1.5px solid #dedede;
-}
+} */
 
-.bg-olive-green {
+/* .bg-olive-green {
   background-color: #354d38 !important;
-}
+} */
 
 .container-fluid {
   padding: 0;
   margin: 0;
+}
+
+a.navbar-brand.nav-icon-size{
+  margin: 1.25rem;
 }
 
 body {
