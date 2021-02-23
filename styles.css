@@ -58,7 +58,6 @@ hr {
 }
 
 a {
-  /* color: #354d38; */
   font-style: normal;
   font-weight: 300;
   text-decoration: none;
@@ -77,15 +76,18 @@ a:hover {
   padding: 3.5rem;
 }
 
-.top-container {
-  background-color: white;
-  /* padding:2rem; */
+.container {
+  margin: 0;
 }
 
 .profile_picture {
   position: relative;
-  margin: 20px;
+  padding-bottom: 2rem;
 
+}
+
+.container-footer{
+  padding-top: 6rem;
 }
 
 /* .hello-img {
@@ -152,13 +154,9 @@ a:hover {
 
 /************* END OF FADE IN CSS ******************/
 
-.bottom-container {
-  background-color: #354d38;
-  padding: 30px 0 20px;
-}
 
 .skill-row {
-  width: 50%;
+  width: 90%;
   margin: 100px auto 50px auto;
   text-align: left;
 }
@@ -168,7 +166,7 @@ a:hover {
 }
 
 .profile_picture {
-  width: 20%;
+  width: 95%;
 }
 
 .intro {
@@ -186,25 +184,19 @@ a:hover {
 }
 
 .copyright {
-  color: #eaf6f6;
   padding: 20px 0;
   font-size: 12px;
 }
 
-.code-img {
+/* .code-img {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
+ */
 
-.baking-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
 
 .footer-link {
-  color: white;
   padding: 0 20px;
 }
 
@@ -229,13 +221,3 @@ a:hover {
   margin: 0;
 }
 
-.h1-projects {
-  margin: 0 auto;
-  font: 1px;
-}
-
-.dog-gif {
-  width: 30%;
-  padding: 0;
-  margin: 0;
-}
